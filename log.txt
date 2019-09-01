@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "c:\Users\MEACH\project\报销自动化\pdf识别.py", line 46, in cvt_pdf
+    pdf2text(pdf)
+  File "c:\Users\MEACH\project\报销自动化\pdf识别.py", line 22, in pdf2text
+    if not exist_file(file_path):
+  File "c:\Users\MEACH\project\报销自动化\usermodules\file_operate.py", line 79, in exist_file
+    return os.path.exists(file_path)
+  File "C:\Users\MEACH\AppData\Local\Programs\Python\Python36\lib\genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not filter
