@@ -1,5 +1,5 @@
 appJar==0.94.0
-numpy==1.17.0
+numpy==1.22.0
 pandas==0.25.0
 pymssql==2.1.4
 PyMuPDF==1.16.0
